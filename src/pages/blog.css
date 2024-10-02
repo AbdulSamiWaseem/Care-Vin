@@ -1,0 +1,168 @@
+.blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blog-header {
+    flex-direction: column;
+}
+
+.blog-header>h1 {
+    background: url("https://www.konnectplugins.com/carevin/images/texture-yellow.png");
+    background-repeat: repeat;
+    color: white;
+    height: 12rem;
+    width: 100%;
+}
+
+.blog-header>p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    border: 2px solid rgb(255, 170, 24);
+    border-radius: 5px;
+    color: rgb(255, 170, 24);
+    width: 30%;
+    height: 3rem;
+}
+
+.blog-header>p>a {
+    display: flex;
+    align-items: center;
+}
+
+.blog-card {
+    width: 100% !important;
+    display: flex !important;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+}
+
+/* .blog-card>img{
+    border: none !important;
+    border-radius: none !important;
+} */
+.blog-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.blog-col-1 {
+    width: 60%;
+}
+
+.blog-col-2 {
+    width: 35%;
+}
+
+.blog-row-1>h2 {
+    background-color: #86C417;
+    color: white;
+}
+
+.blog-row-1 {
+    border: 2px solid #86C417;
+}
+
+.blog-links>a>svg {
+    font-size: 2rem;
+    color: #5C7081;
+}
+
+.blog-links>a>svg:hover {
+    color: #222222;
+}
+
+.blog-row-2>h2 {
+    background-color: #0BB3A3;
+    color: white;
+
+}
+
+.blog-row-2 {
+    border: 2px solid #0BB3A3;
+}
+
+.post {
+    border-bottom: 2px solid #DFDFDF;
+}
+
+.blog-row-3 {
+    background-color: #FDA51F;
+}
+
+.blog-row-4 {
+    border: 2px solid #746ECB;
+}
+
+.blog-row-4>h2 {
+    background-color: #746ECB;
+    color: white;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.tags>p {
+    border: 1px solid #DFDFDF;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+@media screen and (max-width:1024px) {
+    .blog-links>a>svg {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .blog-row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog-col-1 {
+        width: 90%;
+    }
+
+    .blog-col-2 {
+        width: 90%;
+        padding: 1.5rem !important;
+        padding-top: 0rem !important;
+    }
+
+    .blog-row-1 {
+        margin: 0 !important;
+    }
+
+    .blog-row-2 {
+        margin: 0 !important;
+        margin-top: 1rem !important;
+    }
+
+    .blog-row-3 {
+        margin: 0 !important;
+        margin-top: 1rem !important;
+
+    }
+
+    .blog-row-4 {
+        margin: 0 !important;
+        margin-top: 1rem !important;
+
+    }
+
+}
+@media screen and (max-width:425px) {
+    .post >h5{
+        font-size: 1.1rem !important;
+        margin: 0 !important;
+    }
+}

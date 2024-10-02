@@ -1,0 +1,64 @@
+.faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq>h1 {
+    background: url("https://www.konnectplugins.com/carevin/images/texture-yellow.png");
+    background-repeat: repeat;
+    color: white;
+    height: 12rem;
+    width: 100%;
+}
+.faq>p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    border: 2px solid rgb(255, 170, 24);
+    border-radius: 5px;
+    color: rgb(255, 170, 24);
+    width: 30%;
+    height: 3rem;
+}
+
+.faq>p>a {
+    display: flex;
+    align-items: center;
+}
+.faq-accordion{
+    width: 70%;
+}
+.accordion-body >p{
+    color: #3E5569;
+    font-size: 1.1rem;
+    line-height: 1.75rem;
+}
+.accordion-button:focus{
+    box-shadow: none !important;
+}
+.accordion-button:after{
+    content: none;
+}
+@media screen and (max-width:768px) {
+    .faq-head{
+        font-size: 1.25rem !important;
+    }
+    .faq-accordion{
+        width: 80%;
+    }
+}
+@media screen and (max-width:425px) {
+    .faq-head{
+        font-size: 1.15rem !important;
+    }
+    .accordion-body >p{
+        font-size: 0.8rem;
+        line-height: 1.35rem;
+    }
+    .accordion-button{
+        font-size: 1.25rem !important;
+    }
+}

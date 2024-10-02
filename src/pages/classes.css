@@ -1,0 +1,91 @@
+.classes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.classes>h1 {
+    background: url("https://www.konnectplugins.com/carevin/images/texture-yellow.png");
+    background-repeat: repeat;
+    color: white;
+    height: 12rem;
+    width: 100%;
+}
+.classes>p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    border: 2px solid rgb(255, 170, 24);
+    border-radius: 5px;
+    color: rgb(255, 170, 24);
+    width: 30%;
+    height: 3rem;
+}
+
+.classes>p>a {
+    display: flex;
+    align-items: center;
+}
+
+.card-row {
+    display: flex;
+    justify-content: center;
+}
+
+.classes-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 40%;
+}
+
+.classes-card>img {
+    object-fit: contain;
+    padding-top: 2rem;
+    width: fit-content;
+    padding-left: 1rem;
+}
+.container-a{
+    background-color: #0BB3A3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.container-a >h1>span{
+    color:white ;
+}
+.staff{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.staff>div{
+    padding: 0 0.5rem;
+    border-radius: 5px;
+}
+@media screen and (max-width:768px) {
+    .card-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .classes-card{
+        width: 80%;
+        align-items: baseline;
+    }
+    .staff{
+        flex-direction: column;
+    }
+    .staff >div>img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:425px) {
+    .classes >p{
+        font-size: 1rem ;
+    }
+}

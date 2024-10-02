@@ -1,0 +1,105 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact>h1 {
+    background: url("https://www.konnectplugins.com/carevin/images/texture-yellow.png");
+    background-repeat: repeat;
+    color: white;
+    height: 12rem;
+    width: 100%;
+}
+.contact>p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    border: 2px solid rgb(255, 170, 24);
+    border-radius: 5px;
+    color: rgb(255, 170, 24);
+    width: 30%;
+    height: 3rem;
+}
+
+.contact>p>a {
+    display: flex;
+    align-items: center;
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contacts>div{
+    border: 2px solid #DFDFDF;
+    width: 30%;
+    padding: 1rem;
+    margin: 1rem;
+}
+.contacts>div>p{
+    color: #7F667F ;
+}
+.contacts>div>img{
+    float: left;
+}
+.form-entry{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem;
+}
+.form-entry >input{
+    border: none;
+    width: 100%;
+}
+.form-entry>input:focus{
+    border: none !important;
+}
+.form-entry >textarea{
+    border: none;
+    width: 100%;
+
+}
+form{
+    width:30%;
+    margin: 1rem;
+
+}
+iframe{
+    width: 70%;
+    margin: 1rem;
+}
+.location{
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+}
+@media screen and (max-width:768px) {
+    .contact >p{
+        font-size: 0.8rem;
+    }
+    .contacts{
+        flex-direction: column;
+    }
+    .contacts >div{
+        width: 80%;
+    }
+    .location{
+        flex-direction: column;
+        padding: 0;
+    }
+    iframe{
+        width: 100%;
+        margin: 0;
+        padding: 1rem;
+    }
+    form{
+        width: 100%;
+        margin: 0;
+        padding: 1rem;
+    }
+}

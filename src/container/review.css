@@ -1,0 +1,13 @@
+ .slider-wrapper{
+    background-color: #FFAA18 !important;
+    display: flex;
+    flex-direction: column;
+}
+/* .carousel-item{
+    display: flex;
+    flex-direction: column;
+} */
+.carousel-item img{
+    width: 10rem !important;
+
+} 

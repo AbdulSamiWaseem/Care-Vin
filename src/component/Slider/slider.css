@@ -1,0 +1,52 @@
+.carousel-inner{
+    background: url("https://www.konnectplugins.com/carevin/images/texture-yellow.png");
+    background-repeat: repeat;
+    height: 35rem;
+}
+
+.slider-image1{
+    border-radius: 50%;
+    border-top-left-radius: 75%;
+    box-shadow: 5px 2px 16px -4px black;
+}
+.carousel-item{
+    padding: 1rem 10rem 1rem 5rem !important;
+    height: 100%;
+}
+.slider-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.carousel-inner button{
+    background-color: #746ECB !important;
+    width: 15rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+
+}
+.slider-item{
+    height: 100%;
+}
+.slider-item >div> img{
+    width: 25rem !important;
+}
+.slider-item h1{
+    text-shadow: 2px 2px 2px black ;
+    font-size: 3rem;
+    text-align: start;
+    padding-left: 2rem;
+
+}
+
+@media screen and (max-width:768px) {
+    .slider-content{
+        display: none;
+    }
+}
+@media screen and (max-width:425px) {
+    .carousel-item{
+        padding: 1rem !important;
+    }
+}

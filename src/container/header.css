@@ -1,0 +1,44 @@
+.heading{
+    background-color: #262626;
+    color: white;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid black;
+}
+.heading-image{
+    height: 3rem;
+    width: 10rem;
+}
+.top{
+    display: flex;
+    align-items: center;
+    background-color: #555555;
+    color: rgb(183, 183, 183);
+    padding: 1rem 5rem !important;
+    justify-content: space-between;
+    font-size: 0.85rem
+}
+.top-info{
+    display: flex;
+    justify-content: center;
+}
+.top-info >div{
+    padding-right: 1rem;
+}
+.top-links{
+    display: flex;
+    justify-content: center;
+
+}
+.top-links >a{
+    padding-right: 1rem;
+    color:rgb(183, 183, 183) ;
+    cursor: pointer;
+}
+@media screen and (max-width:768px) {
+    .top-links{
+        display: none;
+    }
+    .top{
+        padding: 1rem 3rem !important;
+    }
+}

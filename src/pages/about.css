@@ -1,0 +1,36 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about>h1 {
+    background: url("https://www.konnectplugins.com/carevin/images/texture-dark.png");
+    background-repeat: repeat;
+    color: white;
+    height: 12rem;
+    width: 100%;
+}
+
+.about>p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    border: 2px solid #3F701A;
+    border-radius: 5px;
+    color: #3F701A;
+    width: 30%;
+    height: 3rem;
+}
+
+.about>p>a {
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width:425px) {
+    .about>p{
+        font-size: 0.8rem ;
+    }
+}

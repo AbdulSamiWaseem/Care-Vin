@@ -1,0 +1,75 @@
+.container-a{
+    background: url("https://www.konnectplugins.com/carevin/images/texture.png");
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.container-a >h1>span{
+    color:white ;
+}
+.btn-warning{
+    border-radius: 0 !important;
+    border: 2px solid black !important;
+    margin-top: 1rem;
+    width: 8rem;
+    height: 3rem;
+    background-color: #FDA51F;
+    font-size: 1.25rem;
+
+}
+.card{
+    border: 2px solid hsl(0, 0%, 87%);
+    border-radius: 5px;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    width: 25%;
+}
+.card-title{
+    color: #FEB91F;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+
+}
+.card-body{
+    padding: 2rem;
+
+}
+.card-text{
+    text-align: start;
+    color: #666666;
+    font-size: 1.25rem;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards-row{
+    display: flex;
+    justify-content: center;
+}
+.container-b >p{
+    padding-bottom: 2rem;
+}
+@media screen and (max-width:768px) {
+    .cards-row{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .card{
+        width: 80%;
+        margin-left: 0;
+    }
+    .card-body{
+        margin: 1rem 4rem !important;
+    }
+}
+@media screen and (max-width :425px) {
+    .card-body{
+        margin: 1rem 2rem !important;
+    }
+}

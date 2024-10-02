@@ -1,0 +1,45 @@
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 5rem;
+}
+.card-body >h1>span{
+    color: #FF9C00;
+}
+.card-image{
+    width: 100%;
+}
+.card-image>img{
+    width: 100%;
+}
+@media screen and (max-width:768px) {
+    .card{
+        flex-direction: column !important;
+    }
+    .card-body{
+        padding-left: 2rem;
+    }
+}
+@media screen and (max-width:425px) {
+    .container-b >p{
+        padding-bottom: 1rem;
+    }
+    .card-text{
+        font-size: 1rem;
+    }
+    .card-body{
+        margin: 1rem !important;
+    }
+    .card-body >h1{
+        font-size: 1.5rem;
+    }
+    .card-body>h5{
+        font-size: 1.25rem;
+    }
+    .card-body >p{
+        font-size: 0.9rem;
+    }
+    
+}

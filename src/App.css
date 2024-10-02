@@ -2,9 +2,18 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Merriweather', serif;
+
+}
+
+.a {
+  text-decoration: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -24,6 +33,10 @@
   color: white;
 }
 
+.html {
+  font-size: 16px !important;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -32,7 +45,18 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+@media screen and (max-width:768px) {
+  .html{
+    font-size: 14rem !important;
+  }
+}
+@media screen and (max-width:425px) {
+  .html{
+    font-size: 12rem !important;
   }
 }

@@ -1,0 +1,68 @@
+.facilities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white !important;
+
+}
+
+.facilities>h1 {
+    /* background-color: #3F701A; */
+    background: url("https://www.konnectplugins.com/carevin/images/texture-dark.png");
+    background-repeat: repeat;
+    color: white;
+    height: 12rem;
+    width: 100%;
+}
+
+.facilities>p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    border: 2px solid #3F701A;
+    border-radius: 5px;
+    color: #3F701A;
+    width: 30%;
+    height: 3rem;
+}
+
+.facilities>p>a {
+    display: flex;
+    align-items: center;
+}
+.facility-card{
+    width:40%;
+    display:flex !important;
+    flex-direction: row !important;
+    align-items: flex-start;
+}
+
+.facility-card >img{
+    max-width: 100%;
+    height: auto;
+    padding: 2rem;
+}
+@media screen and (max-width:768px) {
+    .facility-card{
+        width: 80%;
+    }
+    .card-body{
+        margin: 1rem !important;
+    }
+}
+@media screen and (max-width:425px) {
+    .card-text{
+        font-size: 0.75rem !important;
+    }
+    .facilities >p{
+        font-size: 1rem;
+    }
+    .facility-card >img{
+        max-width: 100%;
+        height: auto;
+        padding: 0.75rem;
+        padding-top: 2rem;
+    }
+}
